@@ -17,10 +17,10 @@ end
 
 def full?(board)
 board.each do |x|
-  if !(x==" ")
-    return true
-  else
+  if x==" "
     return false
+  else
+    return true
   end
 end
 end
