@@ -16,11 +16,10 @@ false
 end
 
 def full?(board)
-board.each do |x| 
+board.each do |x|
   if !(x==" ")
     true
-  else
-    false
   end
 end
+false
 end
