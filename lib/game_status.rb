@@ -16,10 +16,9 @@ false
 end
 
 def full?(board)
-board.each do |x|
-return  false
-  if x==" " || x==""
-  end
+  if board.include? (" ")||board.include?("")
+false
+else
+true
 end
-return true
 end
