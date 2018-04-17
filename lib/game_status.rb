@@ -11,7 +11,7 @@ def won?(board)
   if board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]] && board[x[1]]== "X" || board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]] && board[x[1]]== "O"
     return x
   else
-    return false
+    false
   end
 end
 end
