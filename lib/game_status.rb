@@ -11,11 +11,11 @@ WIN_COMBINATIONS=[
 ]
 
 def won?(board)
-  WIN_COMBINATIONS.each do |x| 
+  WIN_COMBINATIONS.each do |x|
   if board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]]
     return x
   else
     return false
   end
-WIN_COMBINATIONS[i] 
+end
 end
