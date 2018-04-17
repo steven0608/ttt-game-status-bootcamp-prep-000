@@ -9,3 +9,13 @@ WIN_COMBINATIONS=[
   [0,3,6],[1,4,7],[2,5,8],
   [0,4,8],[2,4,6]
 ]
+
+def won?(board)
+  WIN_COMBINATIONS.each do |x| 
+  if board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]]
+    return x
+  else
+    return false
+  end
+WIN_COMBINATIONS[i] 
+end
