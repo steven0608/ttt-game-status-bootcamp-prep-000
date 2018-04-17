@@ -20,7 +20,7 @@ board.each do |x|
   if !(x==" ")
     return true
   else
-    false
+    return false
   end
 end
 end
