@@ -22,3 +22,14 @@ else
 true
 end
 end
+
+def draw?(board)
+  if !(won?(board)) && full?(board)
+    true
+  end
+  if (!(won?(board)) && !(full?(board))) || won?(board)
+    false
+  end
+end
+  
+
