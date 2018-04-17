@@ -10,8 +10,7 @@ def won?(board)
   WIN_COMBINATIONS.each do |x|
   if board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]] && board[x[1]]== "X" || board[x[0]]==board[x[1]] && board[x[1]]==board[x[2]] && board[x[1]]== "O"
     return x
-  else
-    false
   end
 end
+false
 end
