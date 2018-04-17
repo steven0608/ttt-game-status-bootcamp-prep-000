@@ -16,7 +16,7 @@ false
 end
 
 def full?(board)
-board.each do |x| 
+board.each do |x|
   if x==" " || x.nil?
   return false
 else
